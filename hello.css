@@ -1,0 +1,74 @@
+#box{
+    border: double;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    box-shadow: 30px 30px 30px rgb(64, 75, 69);
+    background-color: aquamarine;
+}
+
+
+.frog{
+    color: rgb(233, 18, 161);
+    text-align: left;
+}
+h1{
+    text-shadow: 5px 15px 3px gray;
+}
+h3{
+    color: rgb(54, 10, 175);
+}
+.uppercase{
+    text-transform: uppercase;
+}
+h4{
+    color: rgb(224, 11, 11);
+    font-size: 25px;
+    font-weight: 25px;
+    font-style: italic;
+}
+h6{
+    color: rgb(9, 128, 19);
+}
+div{
+    text-align: center;
+    padding: 50px;
+    cursor: pointer;
+    float: right;
+}
+img{
+    width: 455px;
+    height: 250px;
+}
+@media(min-width:576Px){
+    
+    h4{
+        font-size: 18px;
+        font-style: italic;
+    }
+    div{
+        text-align: center;
+    }
+    img{
+        width: 400px;
+        height: 250px;
+    }
+
+}
+@media(min-width:768px){
+
+    h4{
+        font-size: 20px;
+        font-style: italic;
+    }
+    div{
+        text-align: center;
+    }
+    img{
+        width: 400px;
+        height: 250px;
+    }
+
+}
